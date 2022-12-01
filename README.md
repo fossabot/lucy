@@ -62,8 +62,6 @@ The following roles can be assigned to users:
 |User    |Rights to view, create, edit, delete products, components, licenses, etc.|
 |Readonly|Rights to view products, components, licenses, etc.|
 
-![Main Page](res/mainpage.png)
-
 To start the initial analysis of an SBOM, it is recommended to create licenses first. Because without licenses the components cannot be identified correctly.
 
 For a list of existing licenses, the [SPDX License List](https://spdx.org/licenses/) can be used. Each license should be assigned a risk and requirements. Risks and requirements are already predefined.
@@ -71,6 +69,10 @@ For a list of existing licenses, the [SPDX License List](https://spdx.org/licens
 For the first analysis, a new product can now be created. In the product, an SBOM can be uploaded using the "Upload" button. It is recommended to create an SBOM with [CycloneDX](https://cyclonedx.org/). Only the XML format is supported.
 
 Depending on the size of the SBOM, the first upload may take a while. After successful processing, the components are listed in Lucy.
+
+|Main Page|Product Detail Page|
+|---|---|
+|![Main Page](res/mainpage.png)|![Product Detail Page](res/productDetailsPage.png)|
 
 ## Copyright & License
 Lucy is Copyright (c) 2022 Regnology GmbH. All rights reserved.
