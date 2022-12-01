@@ -3,6 +3,8 @@ Lucy is a component analysis platform to minimize the risk of license infringeme
 
 Third-party and open-source software typically has one or more licenses assigned. The chosen license may or may not allow certain types of usage, contain distribution requirements or limitations, or require specific actions if the component is modified. Lucy can identify the license(s) for a given component and provide guidance as to the nature of the license (i.e. license text, copyright, risk, source code, etc). Utilizing components with licenses which conflict with an organizations objectives or ability can create serious risk to the business.
 
+![Process Flow of Lucy](res/processFlow.png)
+
 ## Features
 - Track usage of components in projects
 - Manage licenses with risk and requirements
